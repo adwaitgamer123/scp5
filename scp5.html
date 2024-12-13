@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>personal information details</h1>
+    <form oninput="x.value=(parseInt(m1.value)+parseInt (m2.value)+parseInt(m3.value))/3">
+        <fieldset>
+            <legend>basic information</legend>
+            <label>enter your name </label><br>
+            <input type="text"><br><br>
+            <label>enter your e-mail </label><br>
+            <input type="email"><br><br>
+            <label>enter your contact </label><br>
+            <input type="password"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>date information</legend>
+            <label>enter your birth month</label><br>
+            <input type="text"><br><br>
+            <label>enter your birth day </label><br>
+            <input type="text"><br><br>
+            <label>enter your hobby </label><br>
+            <input type="text"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>school information</legend>
+            <label>enter your grade </label><br>
+            <input type="text"><br><br>
+            <label>enter your fav subject </label><br>
+            <input type="text"><br><br>
+            <label>enter your fav games </label><br>
+            <input type="text"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>hobby information</legend>
+            <label>enter your fav player in football </label><br>
+            <input type="text"><br><br>
+            <label>enter your bestfriends name </label><br>
+            <input type="text"><br><br>
+            <label>enter your online games </label><br>
+            <input type="text"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>additional information</legend>
+            <label>enter your gender</label><br>
+            <input type="radio" name="gender" value="male" id="male">Male<br>
+            <input type="radio" name="gender" value="female" id="female">Female<br><br>
+            <label>enter your fav color </label><br>
+            <input type="color"><br><br>
+            <label>enter your fav city </label><br>
+            <input type="checkbox" value="ooty" id="ooty">Ooty<br>
+            <input type="checkbox" value="kerala" id="kerala">Kerala<br><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>exam details</legend>
+            <label>enter your marks1 </label><br>
+            <input type="number" id="m1" name="m1"><br><br>
+            <label>enter your marks2 </label><br>
+            <input type="number" id="m2" name="m2"><br><br>
+            <label>enter your marks3 </label><br>
+            <input type="number" id="m3" name="m3"><br><br>
+            <label>average</label><br>
+            <output id="x" name="x" for="m1 m2 m3"></output>
+        </fieldset>
+        <label>select your country</label><br>
+        <select id="country" name="country">
+            <option value="india">India</option>
+            <option value="riyadh">Riyadh</option><br><br>
+        </select>
+        <input type="submit" value="submit">
+    </form>
+</body>
+
+</html>
